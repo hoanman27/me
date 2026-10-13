@@ -9,8 +9,8 @@ h2{
     display: flex;
     background-color: #008CBA;
     color: white;
-    align-items: flex-end;
-    padding: 300px 500px;       
+    align-items: center;
+    padding: 100px 300px;       
     border: 85px 90px;             
     border-radius: 8px;       
     font-size: 16px;          
