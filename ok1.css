@@ -8,6 +8,9 @@ h2 {
     width: 10000px;
     font-size: 100px;
 }
+h3 {
+    font-size: 100px;
+}
 
 button {
     display: flex;
@@ -25,3 +28,4 @@ button {
 button:hover {
     background-color: #005f73; /* Đã xóa ký tự "/" thừa */
 }
+
