@@ -1,16 +1,15 @@
 h1 {
     color: red;
-    width: 500px;
-    font-size: 100px;
+    font-size: 40px; /* Thu nhỏ lại cho dễ nhìn trên mobile */
 }
 
 h2 {
-    width: 100px;
-    font-size: 50px;
+    font-size: 24px;
 }
+
 h3 {
-    width: 200px;
-    font-size: 100px;
+    font-size: 24px; /* Giảm font-size của chữ trong nút bấm */
+    margin: 0;
 }
 
 button {
@@ -19,17 +18,18 @@ button {
     background-color: #008CBA;
     color: white;
     align-items: center;
-    padding: 45px 65px; /* Lưu ý: padding này đang rất lớn, nút sẽ cực kỳ to */
-    border: 1px solid transparent; /* Đã sửa lại cú pháp border hợp lệ */
+    padding: 15px 30px; /* Chỉnh lại padding vừa vặn cho nút */
+    border: 1px solid transparent;
     border-radius: 8px;
-    font-size: 16px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #005f73; /* Đã xóa ký tự "/" thừa */
-}
-img{
-    width:800px
+    background-color: #005f73;
 }
 
+img {
+    width: 100%;
+    max-width: 400px; /* Giới hạn kích thước ảnh vừa phải, tự co giãn */
+    height: auto;
+}
