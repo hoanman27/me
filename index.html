@@ -1,16 +1,34 @@
-function openModal() {
-    document.getElementById('modal').style.display = 'flex';
-}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ok1.css">
+</head>
+<body>
+    <button onclick="openModal()" class="upload-btn">Chọn ảnh nền</button>
 
-function closeModal() {
-    document.getElementById('modal').style.display = 'none';
-}
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <label for="bg-file" class="drop-box">
+                <span>Bấm vào đây để chọn file ảnh</span>
+            </label>
+            <input type="file" id="bg-file" accept="image/*">
+        </div>
+    </div>
 
-document.getElementById('bg-file').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-        const imageUrl = URL.createObjectURL(file);
-        document.body.style.backgroundImage = `url('${imageUrl}')`;
-        closeModal();
-    }
-});
+    <div class="container">
+        <h1>you was a dog</h1>
+        <h2>saw cai lon yourmother</h2>
+        <img src="https://pos.nvncdn.com/620982-56869/ps/Album-Cai-Thu-Hai-Thang.jpg?v=1769066252" alt="thang ngot">
+        <button onclick="window.location.href='https://zyo.lol/hoanman22'">
+            <h3>Click</h3>
+        </button>
+    </div>
+
+    <div class="footer">web by hoanman22 creative</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
