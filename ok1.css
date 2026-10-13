@@ -1,20 +1,21 @@
 h1 {
     color: red;
     width: 50000px;
-    font-side: 300px;
+    font-size: 300px;
 }
 
 h2 {
     width: 10000px;
-    font-side: 100px;
+    font-size: 100px;
 }
 
 button {
     display: flex;
+    justify-content: center;
     background-color: #008CBA;
     color: white;
     align-items: center;
-    padding: 100px 300px; /* Lưu ý: padding này đang rất lớn, nút sẽ cực kỳ to */
+    padding: 400px 600px; /* Lưu ý: padding này đang rất lớn, nút sẽ cực kỳ to */
     border: 1px solid transparent; /* Đã sửa lại cú pháp border hợp lệ */
     border-radius: 8px;
     font-size: 16px;
