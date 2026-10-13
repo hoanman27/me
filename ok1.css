@@ -29,4 +29,7 @@ button {
 button:hover {
     background-color: #005f73; /* Đã xóa ký tự "/" thừa */
 }
+img{
+    width:800px
+}
 
