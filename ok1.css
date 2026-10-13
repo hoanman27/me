@@ -1,14 +1,14 @@
 h1 {
     color: red;
-    font-size: 50px; /* Chỉnh kích thước vừa phải để không bị rớt chữ 'dog' */
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 24px; /* Bỏ width cố định để chữ hiển thị bình thường theo hàng ngang */
+    font-size: 20px;
 }
 
 h3 {
-    font-size: 32px; /* Kích thước chữ 'Click' bên trong nút */
+    font-size: 24px;
     margin: 0;
 }
 
@@ -18,12 +18,10 @@ button {
     background-color: #008CBA;
     color: white;
     align-items: center;
-    padding: 20px 40px; /* Thu nhỏ padding lại một chút cho cân đối */
+    padding: 15px 30px; 
     border: 1px solid transparent;
     border-radius: 8px;
     cursor: pointer;
-    width: 100%; /* Giúp nút giãn đều hết chiều ngang màn hình nếu thích */
-    max-width: 400px;
 }
 
 button:hover {
@@ -32,6 +30,6 @@ button:hover {
 
 img {
     width: 100%;
-    max-width: 350px; /* Giới hạn ảnh vừa vặn trên mobile */
+    max-width: 350px;
     height: auto;
 }
