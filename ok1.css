@@ -34,11 +34,13 @@ h1 {
     color: red;
     font-size: 32px;
     margin-bottom: 8px;
+    width: 100%;
 }
 
 h2 {
     font-size: 18px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 h3 {
@@ -103,8 +105,8 @@ img {
     background-color: white;
     padding: 20px;
     border-radius: 12px;
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,16 +116,16 @@ img {
 
 .close {
     position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 20px;
+    top: 8px;
+    right: 12px;
+    font-size: 22px;
     cursor: pointer;
     color: #333;
 }
 
 .drop-box {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 120px;
     border: 2px dashed #008CBA;
     display: flex;
     justify-content: center;
@@ -134,6 +136,7 @@ img {
     padding: 10px;
     font-size: 14px;
     color: #008CBA;
+    background-color: #f9f9f9;
 }
 
 .drop-box:hover {
