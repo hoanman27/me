@@ -1,0 +1,19 @@
+
+h1{color:red;}
+
+  button {
+    display: flex;
+    background-color: #008CBA;
+    color: white;
+    align-items: flex-end;
+    padding: 12px 24px;       
+    border: 35px 30px;             
+    border-radius: 8px;       
+    font-size: 16px;          
+    cursor: pointer;          
+  }
+  button:hover {
+    background-color: #005f73; /
+  }
+}
+
