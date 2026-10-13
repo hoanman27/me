@@ -1,13 +1,15 @@
 h1{
   color:red;
+  width:500;
 }
   button {
     display: flex;
+    align-items: center ;
     background-color: #008CBA;
     color: white;
     align-items: flex-end;
-    padding: 12px 24px;       
-    border: 35px 30px;             
+    padding: 300px 500px;       
+    border: 85px 90px;             
     border-radius: 8px;       
     font-size: 16px;          
     cursor: pointer;          
