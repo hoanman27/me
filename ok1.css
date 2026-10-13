@@ -2,6 +2,9 @@ h1{
   color:red;
   width:500;
 }
+h2{
+  width:100;
+}
   button {
     display: flex;
     align-items: center ;
