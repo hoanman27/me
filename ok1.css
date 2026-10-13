@@ -1,23 +1,24 @@
-h1{
-  color:red ;
-  width:500px ;
+h1 {
+    color: red;
+    width: 500px;
 }
-h2{
-  width:100px ;
+
+h2 {
+    width: 100px;
 }
-  button {
+
+button {
     display: flex;
     background-color: #008CBA;
     color: white;
     align-items: center;
-    padding: 100px 300px;       
-    border: 85px 90px;             
-    border-radius: 8px;       
-    font-size: 16px;          
-    cursor: pointer;          
-  }
-  button:hover {
-    background-color: #005f73; /
-  }
+    padding: 100px 300px; /* Lưu ý: padding này đang rất lớn, nút sẽ cực kỳ to */
+    border: 1px solid transparent; /* Đã sửa lại cú pháp border hợp lệ */
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: #005f73; /* Đã xóa ký tự "/" thừa */
+}
