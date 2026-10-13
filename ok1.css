@@ -15,6 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 .container {
@@ -53,21 +54,103 @@ img {
     margin-bottom: 15px;
 }
 
-button {
+.container button {
     background-color: #008CBA;
     color: white;
     padding: 10px 25px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    margin-bottom: 15px;
 }
 
-button:hover {
+.container button:hover {
     background-color: #005f73;
 }
 
-#bg-file {
-    margin-top: 5px;
+.upload-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.upload-btn:hover {
+    background-color: #27ae60;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.drop-box {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #008CBA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
     font-size: 14px;
+    color: #008CBA;
+}
+
+.drop-box:hover {
+    background-color: #f0f8ff;
+}
+
+#bg-file {
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 4px;
 }
