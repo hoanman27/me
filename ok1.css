@@ -1,13 +1,12 @@
 h1{
-  color:red;
-  width:500;
+  color:red ;
+  width:500px ;
 }
 h2{
-  width:100;
+  width:100px ;
 }
   button {
     display: flex;
-    align-items: center ;
     background-color: #008CBA;
     color: white;
     align-items: flex-end;
